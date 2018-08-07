@@ -13,9 +13,9 @@ Add it in your root build.gradle at the end of repositories:
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 		}
 	}
   
@@ -25,7 +25,8 @@ Add dependency in your app module
 
 ```
 dependencies {
-	implementation 'com.github.sagargowda7:DropToast:0.2'
+	 implementation 'com.github.sagargowda7:DropToast:0.0.1'
+	}
 }
 ```
 
