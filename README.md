@@ -5,7 +5,8 @@
 
 ## Demo Images
 
-![alt text](https://github.com/sagargowda7/DropToast/blob/master/images/image.jpg)
+![alt text](https://github.com/sagargowda7/DropToast/blob/master/demo%20image/dropToast1.jpg)
+![alt text](https://github.com/sagargowda7/DropToast/blob/master/demo%20image/dropToast2.jpg)
 
 ## Dependency
 
