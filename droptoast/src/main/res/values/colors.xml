@@ -5,5 +5,7 @@
     <color name="white">#fff</color>
     <color name="warning">#f7d216</color>
     <color name="black">#1a1a1a</color>
+    <color name="defal">#FF505050</color>
+    <color name="confused">#FFFF6128</color>
 
 </resources>

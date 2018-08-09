@@ -14,6 +14,9 @@ public class DropToast {
     public static final int SUCCESS = 0;
     public static final int ERROR = 1;
     public static final int WARNING = 2;
+    public static final int DEFAULT = 3;
+    public static final int CONFUSED = 4;
+
 
     public static final int LONG = 1;
     public static final int SHORT = 0;
@@ -28,20 +31,29 @@ public class DropToast {
 
         switch (type){
             case SUCCESS:
-                icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_check));
+                icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_success));
                 view.setBackground(ContextCompat.getDrawable(context,R.drawable.toast_background_success));
                 break;
             case ERROR:
-                icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_warning));
+                icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_error));
                 view.setBackground(ContextCompat.getDrawable(context,R.drawable.toast_background_error));
                 break;
             case WARNING:
                 icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_info));
                 view.setBackground(ContextCompat.getDrawable(context,R.drawable.toast_background_warning));
                 break;
+            case DEFAULT:
+                icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_defalut));
+                view.setBackground(ContextCompat.getDrawable(context,R.drawable.toast_background_default));
+                break;
+            case CONFUSED:
+                icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_confused));
+                view.setBackground(ContextCompat.getDrawable(context,R.drawable.toast_background_confused));
+                break;
                 default:
-                    icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_check));
-                    view.setBackground(ContextCompat.getDrawable(context,R.drawable.toast_background_success));
+                    icon.setImageDrawable(ContextCompat.getDrawable(context,R.drawable.ic_defalut));
+                    view.setBackground(ContextCompat.getDrawable(context,R.drawable.toast_background_default));
+                    break;
         }
 
         text.setText(message);

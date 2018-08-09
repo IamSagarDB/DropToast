@@ -18,6 +18,7 @@
         android:textColor="@color/white"
         android:textAllCaps="true"
         android:onClick="Success"
+        android:background="@color/defal"
         android:layout_margin="10dp"
         android:text="Success" />
 
@@ -28,6 +29,7 @@
         android:layout_weight="1"
         android:textColor="@color/white"
         android:textAllCaps="true"
+        android:background="@color/defal"
         android:layout_margin="10dp"
         android:onClick="Error"
         android:text="Error" />
@@ -39,7 +41,30 @@
         android:layout_weight="1"
         android:textColor="@color/white"
         android:textAllCaps="true"
+        android:background="@color/defal"
         android:onClick="Warning"
         android:layout_margin="10dp"
         android:text="Warning" />
+    <Button
+        android:id="@+id/default_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:onClick="Default"
+        android:background="@color/defal"
+        android:layout_margin="10dp"
+        android:text="Default" />
+    <Button
+        android:id="@+id/confused_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:background="@color/defal"
+        android:onClick="Confused"
+        android:layout_margin="10dp"
+        android:text="Confused" />
 </LinearLayout>

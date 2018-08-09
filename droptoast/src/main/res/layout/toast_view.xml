@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:padding="7dp"
     android:layout_gravity="center"
-    android:background="@drawable/toast_background_success"
+    android:background="@drawable/toast_background_default"
     android:layout_height="wrap_content">
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:minHeight="24dp"
-        android:src="@drawable/ic_check"
+        android:src="@drawable/ic_defalut"
         android:layout_gravity="center"
         android:layout_marginLeft="7dp"
         android:layout_marginRight="7dp"

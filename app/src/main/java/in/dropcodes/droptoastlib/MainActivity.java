@@ -22,10 +22,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Error(View view) {
-        DropToast.makeText(MainActivity.this,"WARNING",DropToast.ERROR,DropToast.LONG);
+        DropToast.makeText(MainActivity.this,"ERROR",DropToast.ERROR,DropToast.LONG);
     }
 
     public void Warning(View view) {
-        DropToast.makeText(MainActivity.this,"ERROR",DropToast.WARNING,DropToast.LONG);
+        DropToast.makeText(MainActivity.this,"WARNING",DropToast.WARNING,DropToast.LONG);
+    }
+
+    public void Default(View view) {
+        DropToast.makeText(MainActivity.this,"Default",DropToast.DEFAULT,DropToast.LONG);
+    }
+
+    public void Confused(View view) {
+        DropToast.makeText(MainActivity.this,"Confused",DropToast.CONFUSED,DropToast.LONG);
     }
 }
