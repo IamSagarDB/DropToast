@@ -7,7 +7,7 @@
 ## Demo Images
 
 ![alt text](https://drive.google.com/uc?export=download&id=1fl9ATw6Gaei33gUP71XR58f7z9bEf58U)
-![alt text](https://github.com/sagargowda7/DropToast/blob/master/demo%20image/dropToast2.jpg)
+![alt text](https://drive.google.com/uc?export=download&id=1k0Ku356-ypE25oTw6fI7i8nxtfLb9i_M)
 
 ## Dependency
 
