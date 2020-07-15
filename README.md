@@ -27,7 +27,7 @@ Add dependency in your app module
 
 ```
 dependencies {
-	 implementation 'com.github.sagargowda7:DropToast:0.2.1'
+	 implementation 'com.github.IamSagarDB:DropToast:0.2.1'
 	}
 }
 ```
